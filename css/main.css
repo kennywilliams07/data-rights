@@ -88,10 +88,30 @@ html {
     margin-left: 40px;
     width: 50%;
     height: 100%;
+} 
+
+#brittany-info {
+    text-indent: 30px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 40px;
+    width: 50%;
+    height: 100%;
 }
 
 p {
     color: lightgrey;
+}
+
+#involved {
+    text-indent: 100px;
+    float: left;
+    font-size: xx-large;
+    padding-top: 70px;
+    margin-right: 40px;
+    width: 50%;
+    height: 100%;
 }
 
 .footer {
@@ -126,9 +146,9 @@ p {
     padding-top: 75px;
     padding-bottom: 30px;
     padding-right: 40px;
-    margin-right: 200px;
-    width: 20%;
-}
+    margin-right: 330px;
+    width: 10%;
+} 
 
 #david {
     float: right;
@@ -136,29 +156,38 @@ p {
     padding-top: 75px;
     padding-bottom: 30px;
     padding-right: 40px;
-    margin-right: 350px;
+    margin-right: 330px;
+    width: 10%;
+}
+
+#brittany {
+    float: right;
+    clear: right;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    margin-right: 330px;
     width: 10%;
 }
 
 .caroletw a {
     background-image: url('../img/twitter.png');
-    size: 30px 30px;
-    
+    size: 20px 20px;
 }
 
 .carolefb a {
     background-image: url('../img/facebook.png');
-    size: 30px 30px;
+    size: 20px 20px;
 }
 
 .guardian a {
     background-image: url('../img/guardian.png');
-    size: 30px 30px;
-}
+    size: 20px 20px;
+} 
 
 .davidtw a {
     background-image: url('../img/twitter.png');
-    size: 30px 30px;
+    size: 20px 20px;
     
 }
 
@@ -172,13 +201,28 @@ p {
     size: 20px 20px;
 }
 
+.brittanytw a {
+    background-image: url('../img/twitter.png');
+    size: 20px 20px;
+}
+
+.brittwiki a {
+    background-image: url('../img/wiki.png');
+    size: 20px 20px;
+}
+
+.brittpost a {
+    background-image: url('../img/washpost.png');
+    size: 20px 20px;
+}
+
 /* LINKS */
 
 .contact-info ul {
     list-style-type: none;
     float: left;
     padding-top: 30px;
-    margin-left: 150px;
+    margin-left: 180px;
     width: 50%;
     height: 100%;
 }
