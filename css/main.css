@@ -1,0 +1,190 @@
+/* HEADER */
+h1, h2, h3 {
+    color: lightgrey;
+    padding-top: 30px;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(#000, transparent 100%),
+                linear-gradient(0deg, #999, transparent),
+                #999 url(../img/header-img.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    width: 100%;
+    height: 450px;
+    transition: ease-in;
+}
+
+.nav {
+    overflow: hidden;
+    list-style-type: none;
+    font-size: 3em;
+    padding-top: 100px;
+    top: 0;
+    width: 100%;
+}
+
+.nav a {
+    color: lightgrey;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 100px;
+}
+
+.nav a:hover {
+    text-decoration: none;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	color: #fff;
+
+}
+
+/* BODY */
+html {
+    background-color: lightseagreen;
+    scroll-behavior: smooth;
+}
+
+/* TEXT */
+#data-info {
+    text-indent: 30px;
+    float: left;
+    padding-top: 30px;
+    margin-left: 40px;
+    width: 50%;
+    height: 100%;
+}
+
+#your-data {
+    text-indent: 30px;
+    float: right;
+    padding-top: 70px;
+    margin-right: 40px;
+    width: 50%;
+    height: 100%;
+}
+
+#david-info {
+    text-indent: 30px;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 40px;
+    margin-top: 150px;
+    width: 50%;
+    height: 100%;
+}
+
+#carole-info {
+    text-indent: 30px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 40px;
+    width: 50%;
+    height: 100%;
+}
+
+p {
+    color: lightgrey;
+}
+
+.footer {
+    margin-top: 100%;
+    padding-top: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+    color: lightgrey;
+    text-align: center;
+  }
+
+/* IMAGES */
+#flowchart {
+    float: right;
+    clear: right;
+    padding-top: 83px;
+    padding-right: 40px;
+    width: 40%;  
+}
+
+#data-rights {
+    float: left;
+    clear: left;
+    padding-top: 170px;
+    padding-left: 40px;
+    width: 40%;
+}
+
+#carole {
+    float: right;
+    clear: right;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    margin-right: 200px;
+    width: 20%;
+}
+
+#david {
+    float: right;
+    clear: right;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    margin-right: 350px;
+    width: 10%;
+}
+
+.caroletw a {
+    background-image: url('../img/twitter.png');
+    size: 30px 30px;
+    
+}
+
+.carolefb a {
+    background-image: url('../img/facebook.png');
+    size: 30px 30px;
+}
+
+.guardian a {
+    background-image: url('../img/guardian.png');
+    size: 30px 30px;
+}
+
+.davidtw a {
+    background-image: url('../img/twitter.png');
+    size: 30px 30px;
+    
+}
+
+.davidpg a {
+    background-image: url('../img/new-school.png');
+    size: 20px 20px;
+}
+
+.davidart a {
+    background-image: url('../img/news.ico');
+    size: 20px 20px;
+}
+
+/* LINKS */
+
+.contact-info ul {
+    list-style-type: none;
+    float: left;
+    padding-top: 30px;
+    margin-left: 150px;
+    width: 50%;
+    height: 100%;
+}
+
+.contact-info ul li a {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
