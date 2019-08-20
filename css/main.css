@@ -114,14 +114,13 @@ p {
     height: 100%;
 }
 
-.footer {
-    margin-top: 100%;
-    padding-top: 100%;
-    width: 100%;
-    background-color: lightseagreen;
-    color: lightgrey;
+.footer p {
+    position: absolute;
+    align-items: baseline;
     text-align: center;
-  }
+    margin-left: 40%;
+    margin-top: 200%;
+}
 
 /* IMAGES */
 #flowchart {
@@ -214,6 +213,22 @@ p {
 .brittpost a {
     background-image: url('../img/washpost.png');
     size: 20px 20px;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    float: left;
+    align-content: center;
+    display: inline;
+    margin-top: 200px;
+    margin-left: 32%;
+}
+
+.carousel carousel-item {
+    align-content: center;
+    align-items: center;
+    
 }
 
 /* LINKS */
