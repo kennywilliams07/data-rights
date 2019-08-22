@@ -1,0 +1,120 @@
+@media screen and (max-width: 575.98px) {
+    
+/* HEADER */
+
+    #main-body {
+        background-color: lightseagreen;
+    }
+
+    header {
+        background: linear-gradient(#000, transparent 100%),
+        linear-gradient(0deg, #999, transparent),
+        #999 url(../img/header-img.jpg);
+        background-size: cover;
+        height: 475px;
+    }
+
+    .title {
+        margin-left: 20px;
+    }
+
+    .subtitle {
+        margin-left: 20px;
+    }
+
+    .nav li {
+        display: inline;
+        font-size: medium;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .nav a:hover {
+        text-decoration: none;
+        font-size: large;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: normal;
+        letter-spacing: normal;
+        color: #fff;
+    }
+
+/* CONTENT */
+
+    .contact-info ul {
+        display: inline;
+        text-align: left;
+        margin-left: 0%;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    /* INTENTIONALLY HID THE IMAGES FOR PHONES */
+      #carole, #david, #brittany {
+        padding-right: 37%;
+    }
+
+    .footer p {
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+        width: 20%;
+        margin-right: 50%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1028px) {
+
+/* HEADER */
+
+    #main-body {
+        background-color: lightseagreen;
+    }
+
+    header {
+        background-color: lightseagreen;
+        background-size: cover;
+    }
+
+    .nav {
+        margin-left: 27px;
+    }
+
+    .nav li {
+        display: inline-block;
+        font-size: xx-large;
+    }
+
+/* CONTENT */
+
+    .contact-info ul {
+        display: inline;
+        text-align: left;
+        margin-left: 0%;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    #carole, #david, #brittany {
+        padding-right: 50%;
+    }
+
+    .footer p {
+        display: inline;
+        text-align: center;
+        align-content: center;
+        width: 20%;
+        margin-right: 50%;
+    }
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1228px) {
+    .nav {
+        margin-left: 27px;
+    }
+
+    .nav li {
+        display: inline-block;
+        font-size: xx-large;
+    }
+}

@@ -50,6 +50,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#main-body {
+    background-color: lightseagreen;
+}
+
 /* TEXT */
 #data-info {
     text-indent: 30px;
@@ -119,7 +123,7 @@ p {
     align-items: baseline;
     text-align: center;
     margin-left: 40%;
-    margin-top: 200%;
+    margin-top: 5%;
 }
 
 /* IMAGES */
@@ -218,17 +222,19 @@ p {
 /* CAROUSEL */
 
 .carousel {
-    float: left;
+    float: center;
+    clear: both;
     align-content: center;
-    display: inline;
-    margin-top: 200px;
-    margin-left: 32%;
+    display: center;
+    height: 32%;
+    width: 32%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .carousel carousel-item {
     align-content: center;
     align-items: center;
-    
 }
 
 /* LINKS */
