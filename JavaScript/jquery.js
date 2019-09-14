@@ -1,4 +1,4 @@
-$(document).ready(funtion(){
+$(document).ready(function(){
   $('.carousel').carousel({
     dots: true,
     infinite: true,
@@ -7,5 +7,5 @@ $(document).ready(funtion(){
     slidesToShow: 3,
     slidesToScroll: 3,
     cssEase: 'linear'
-  })
+  });
 });
